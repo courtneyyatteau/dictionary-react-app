@@ -1,0 +1,13 @@
+.dictionary {
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: 200;
+  font-style: italic;
+  margin: 13px 0 20px 0;
+}
+
+.search-input {
+  margin-bottom: 20px;
+}

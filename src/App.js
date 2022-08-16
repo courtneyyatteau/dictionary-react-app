@@ -1,10 +1,14 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
       <div className="title">English Dictionary</div>
-      <p className="footer">
+      <div>
+      <Dictionary />
+      </div>
+      <footer className="footer">
         This is an open-source{" "}
         <a
           href="https://github.com/courtneyyatteau/dictionary-react-app"
@@ -24,7 +28,7 @@ function App() {
           Courtney Yatteau
         </a>
         .
-      </p>
+      </footer>
     </div>
   );
 }
